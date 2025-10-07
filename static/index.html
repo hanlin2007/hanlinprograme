@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MiniNginx Static Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        h1 { color: #2c3e50; }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; border: 1px solid #ddd; border-radius: 5px; }
+        .success { color: #27ae60; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MiniNginx Static File Server</h1>
+        <p class="success">✓ Static file serving is working correctly!</p>
+        <p>This page is served from a static HTML file located at: <code>static/index.html</code></p>
+        
+        <h3>Available Test Files:</h3>
+        <ul>
+            <li><a href="/">Back to Home</a></li>
+            <li><a href="/static/images/test.txt">Test Text File</a></li>
+            <li><a href="/static/nonexistent.txt">Test 404 Error</a></li>
+        </ul>
+    </div>
+</body>
+</html>
